@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="practice" parallel="tests">
+<listeners>
+<listener class-name="com.test.MyListner"></listener>
+</listeners>
+
+<test name="sampleTest">
+<classes>
+<class name="com.test.RegrationTest"></class>
+</classes>
+</test>
+
+
+<test name="sampleTest1">
+<classes>
+<class name="com.test.RegrationTest"></class>
+<class name="com.test.Integration"></class>
+</classes>
+</test>
+
+
+
+</suite>

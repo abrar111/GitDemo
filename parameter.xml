@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="practice">
+	<test name="sampleTest">
+	<parameter name="browser" value="firefox"></parameter>
+	<classes>
+		<class name="com.test.SmokeTest"></class>
+	</classes>
+	
+	
+	</test>
+
+
+</suite>
